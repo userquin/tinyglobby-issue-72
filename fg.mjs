@@ -7,8 +7,6 @@ const r = (p) => normalize(resolve(ROOT, '..', p))
 
 console.log(r('src/node/worker_*.js'))
 console.log(
-    // this will hangs:
-    // remove r() or use r(...).replaceAll('\\', '/')
     fg.sync(r('src/node/worker_*.js'), {
         cwd: r('.'),
         onlyFiles: true,
