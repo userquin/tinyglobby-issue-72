@@ -1,0 +1,22 @@
+{
+  "name": "tinyglobby-issue-72",
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "tg": "node tg.mjs",
+    "fg": "node fg.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/userquin/tinyglobby-issue-72.git"
+  },
+  "author": "userquin <userquin@gmail.com>",
+  "license": "MIT",
+  "description": "Reproduction for tiny-globby issue #72",
+  "dependencies": {
+    "@types/node": "^22.13.4",
+    "fast-glob": "^3.3.3",
+    "tinyglobby": "^0.2.10"
+  }
+}
